@@ -1,0 +1,33 @@
+body{
+    background-color: #141414;
+    align-content: center;
+    place-items: center;
+}
+
+.container{   
+    display: grid;
+    place-items: center;
+}
+
+.conteudo{
+    background-color: black;
+    margin-top: 50%;
+    padding: 2rem 1.8rem;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+.titulo{
+    color: white;
+    font-size: 32;
+}
+.message {
+    color: #c0572b;
+    text-align: center;
+     
+    
+}
+*{
+    font-family: 'Share Tech', sans-serif;
+}

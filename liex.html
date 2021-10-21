@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/index.css">
+    <script src="https://kit.fontawesome.com/95735b970a.js" crossorigin="anonymous"></script>
+    
+    <title>Liex</title>
+</head>
+    <body>
+        
+        <div class="container">
+            <div class="conteudo">
+                <div class="title">
+                    <h1 class="titulo">Mensagem de Ad4N</h1>
+                </div>
+                <div class="message">   
+                    <p>
+                        Olá, Liex. A pedido de Novarum, estou entrando em contato para convocá lo para a primeira reunião do grupo. A localização você já sabe. Chegue às 21h, dia 22.
+                    </p>
+                </div>    
+            </div>
+        </div>    
+        
+        <script>
+            function typeWriter(elemento) {
+              const textoArray = elemento.innerHTML.split('');
+              elemento.innerHTML = '';
+              textoArray.forEach((letra, i) => {
+                setTimeout(() => elemento.innerHTML += letra, 60 * i);
+              });
+            }
+          
+            
+          
+            const texto = document.querySelector('p');
+            typeWriter(texto);
+          </script>
+      
+    </body>
+
+</html>
